@@ -48,3 +48,26 @@ sudo python main.py
 ```
 
 Now on changing the light intensity level received by the sensor , the corresponding reading on the OLED display will change accordingly.
+
+## RTC 6 Click Example
+
+This example has an RTC 6 Click plugged into the Mikrobus Slot of the Techlab Cape and continously Displays the current time obtained from the RTC to the LED 7 Segment Displays on the Techlab Cape , as there are not enough 7-seg displays available to display the time simultaneously, the example first displays Hours for 2 times, then minutes and then seconds.
+
+### Running the example
+
+Connect the RTC 6 Click to the Techlab Cape Mikrobus Slot, then start the GBSIM(greybus simulator) by running the following command :
+
+``` sudo startgbsim```
+
+Now using the insclick CLI Utility the RTC6 Click can be loaded using the command :
+
+``` sudo insclick rtc6 p1```
+now run the examples using the following commands:
+
+``` 
+cd rtc
+sudo python main.py
+```
+
+Now the current time will be displayed on the 7-seg led displays on the cape continously.
+
