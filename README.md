@@ -24,7 +24,7 @@ python main.py
 
 Now on pressing the buttons(L and R) on the Techlab Cape should display different images on the display. For more information about the code, see a similar project here : https://beagleboard.org/p/103416/standalone-magic-8-ball-pocketbeagle-mikro-click-boards-4f1bb4
 
-To change the images being displayed, the images img*.jpg on the oledc/ directory can be replaced with your images, please note that the oledc screen has an usable size of 96px X 96px and the images has to be resized to that particular size.
+To change the images being displayed, the images img*.jpg on the oledc/ directory can be replaced with your images, please note that the oledc screen has an usable size of 128px X 128px and the images has to be resized to fit that particular size(ideally 96px X 96px).
 
 ## OLED B Click Example
 
